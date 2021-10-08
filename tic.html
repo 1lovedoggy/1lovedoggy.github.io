@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>tic-tat-toe</title>
+	<link rel="stylesheet" type="text/css" href="tic.css">
+
+	<script src="tic.js"></script>
+</head>
+<body onload="turn_printing();">
+<h2><b>
+Welcome to my homepage, let's play a tic-tat-toe game!
+</b>
+<br>
+This is a 3x3 size playfield.
+</h2>
+<table id="myTable">
+	<tr>
+		<td id="one" onclick="changeContent(0,0)">&nbsp;</td>
+		<td id="two" onclick="changeContent(0,1)">&nbsp;</td>
+		<td id="three" onclick="changeContent(0,2)">&nbsp;</td>
+	</tr>
+	<tr>
+		<td id="four" onclick="changeContent(1,0)">&nbsp;</td>
+		<td id="five" onclick="changeContent(1,1)">&nbsp;</td>
+		<td id="six" onclick="changeContent(1,2)">&nbsp;</td>
+	</tr>
+	<tr>
+		<td id="seven" onclick="changeContent(2,0)">&nbsp;</td>
+		<td id="eight" onclick="changeContent(2,1)">&nbsp;</td>
+		<td id="nine" onclick="changeContent(2,2)">&nbsp;</td>
+	</tr>
+</table>
+
+<br><br>
+<div id="turn" style="font-size:20px;"></div>
+<div id="player1" style=" text-align:left; font-size:20px;"></div>
+<div id="player2" style=" text-align:right; font-size:20px;"></div>
+<br>
+<button onclick="location.reload()" style="font-size:20px;">Start Again</button>
+
+
+</body>
+</html>
