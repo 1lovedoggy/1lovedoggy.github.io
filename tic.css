@@ -1,0 +1,30 @@
+table{
+	margin: 0px auto;
+	font-size:200px;
+	color:blue;
+	table-layout: fixed;
+	min-width:800px;
+	min-height:600px;
+	width:80px;
+	height:80px;
+	text-align:center;
+	font-family:Helvetica;
+	cursor:pointer;
+}
+
+td{
+	margin: 0px auto;
+	border: 2px solid black;
+	font-size:200px;
+	color:blue;
+	padding-left: 10px;
+	padding-right:10px; 
+	table-layout: fixed;
+	min-height:100px;
+	text-align:center;
+	width:80px;
+	height:80px;
+	font-family:Helvetica;
+	cursor:pointer;
+	
+}
